@@ -37,11 +37,13 @@ We evaluated the performance of the model using two publicly available and newly
 
 ```
 python dit_sgcr.py --dataset B4E
+python dit_sgcr.py --dataset MulDiGraph
 ```
 
 **Step4** Detect malicious accounts
 
 ```
 python detect_rf.py --dataset B4E
+python detect_rf.py --dataset MulDiGraph
 ```
 

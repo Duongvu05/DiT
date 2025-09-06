@@ -9,6 +9,7 @@ class directed_loader:
         self.G = {}
         self.co = {}
         self.revco = {}
+        
 
     def nodeID(self, x):
         if x not in self.co:
